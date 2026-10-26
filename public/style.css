@@ -1,0 +1,35 @@
+body { 
+    font-family: system-ui, sans-serif;
+    background: #f4f6f8; 
+    margin: 0; 
+}
+main { 
+    max-width: 640px; 
+    margin: 2rem auto; 
+    padding: 0 1rem; 
+}
+section { 
+    background: #fff; 
+    padding: 1rem; 
+    border-radius: 8px; 
+    margin-bottom: 1rem; 
+}
+.product { display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: .5rem 0; 
+}
+.product input { 
+    width: 4rem; 
+}
+button { 
+    padding: .6rem 1.2rem; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+#message.error { 
+    color: #c0392b; 
+}
+#message.ok { 
+    color: #1e8449; 
+}

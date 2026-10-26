@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tienda SOLID</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Tiendita</h1>
+    <section>
+      <h2>Productos</h2>
+      <div id="products"></div>
+    </section>
+    <section>
+      <h2>Descuento</h2>
+      <select id="discountType">
+        <option value="none">Sin descuento</option>
+        <option value="percentage">Porcentaje (%)</option>
+        <option value="fixed">Monto fijo ($)</option>
+      </select>
+      <input id="discountValue" type="number" value="0" min="0">
+    </section>
+    <section>
+      <h2>Pago</h2>
+      <select id="paymentType">
+        <option value="card">Tarjeta</option>
+        <option value="cash">Efectivo</option>
+      </select>
+      <input id="holder" type="text" placeholder="Titular de la tarjeta">
+    </section>
+    <button id="checkout">Pagar</button>
+    <p id="message"></p>
+    <pre id="result"></pre>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
